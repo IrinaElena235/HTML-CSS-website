@@ -1,0 +1,126 @@
+.welcome{
+    background-color: var(--bg-primary);
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h1{
+    text-align: center;
+}
+
+.courses {
+    padding: 16px 0px;
+}
+
+.courses .main-paragraph{
+    margin-left: var(--spacing-small);
+    margin-right: var(--spacing-small);
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.courses h2{
+    padding-top: var(--spacing-large);
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.courses .courses-container{
+    margin-bottom: 28px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courses .course-wrapper {
+    width: calc(100%/3);
+
+    margin-bottom: 16px;
+    padding-right: var(--spacing-small);
+    padding-left: var(--spacing-small);
+  }
+
+  .courses .course {
+    width: 100%;
+  
+    padding: var(--spacing-tiny);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: var(--spacing-medium);
+  }
+
+  .courses .image{
+    width: 100%;
+    height: auto;
+    margin-bottom: 28px;
+  }
+
+  .courses h3{
+    color: var(--bg-primary);
+    margin-bottom: var(--spacing-medium);
+    margin-left: var(--spacing-small);
+  }
+
+ 
+  .courses .microsoft-logo {
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+  }
+
+.courses span,
+.courses .certification {
+  font-size: var(--fs-medium);
+  color: #666;
+}
+
+.courses .certification{
+  margin-bottom: var(--spacing-medium);
+  margin-left: var(--spacing-small);
+}
+
+.courses .details{
+  margin-bottom: var(--spacing-medium);
+}
+
+.courses .material-symbols-outlined {
+  vertical-align: middle;
+}
+
+.courses a{
+  font-size: var(--fs-medium);
+  text-align: center;
+
+  color: var(--text-white);
+  background-color: var(--button-color);
+
+  border: 1px solid var(--button-color);
+  border-radius: 5px;
+  padding: var(--spacing-tiny);
+  margin-bottom: var(--spacing-medium);
+  margin-left: var(--spacing-small);
+
+  width: 100px;
+}
+
+.courses .microsoft-logo,
+.courses .date,
+.courses .months,
+.courses .hours {
+  margin-left: var(--spacing-small);
+}
+
+@media (max-width: 992px) {
+  .courses .course-wrapper {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px ) {
+  .courses .course-wrapper {
+    width: 100%;
+  }
+}
